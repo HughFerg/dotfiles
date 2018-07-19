@@ -47,7 +47,7 @@ export UPDATE_ZSH_DAYS=3
 ENABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
- COMPLETION_WAITING_DOTS="true"
+COMPLETION_WAITING_DOTS="true"
 
 # Uncomment the following line if you want to disable marking untracked files
 # under VCS as dirty. This makes repository status check for large repositories
@@ -110,7 +110,7 @@ alias vim="vim -p"
 
 alias myip="dig +short myip.opendns.com @resolver1.opendns.com"
 
-alias start="bundle exec jekyll serve --baseurl """
+alias start="bundle exec jekyll serve
 
 export PATH="$HOME/.rbenv/bin:$PATH"
 archey
