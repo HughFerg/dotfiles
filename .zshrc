@@ -114,5 +114,4 @@ alias start="bundle exec jekyll serve"
 
 export PATH="$HOME/.rbenv/bin:$PATH"
 archey
-fortune
 cd
