@@ -1,0 +1,8 @@
+export EDITOR="subl -w"
+export CLICOLOR=1
+export LSCOLORS=gxfxcxdxbxegedabagacad
+
+export GREP_OPTIONS='—color=auto'
+
+# Autocorrect cd typos 
+shopt -s cdspell
