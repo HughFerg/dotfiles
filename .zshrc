@@ -112,6 +112,8 @@ alias myip="dig +short myip.opendns.com @resolver1.opendns.com"
 
 alias start="bundle exec jekyll serve"
 
+alias dickbutt="cat /Users/hughferguson/dickbutt.txt"
+
 export PATH="$HOME/.rbenv/bin:$PATH"
 archey --offline
 cd
