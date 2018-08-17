@@ -96,6 +96,7 @@ source $ZSH/oh-my-zsh.sh
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
+alias .....="cd ../../../.."
 
 alias sudo="sudo "
 
@@ -103,6 +104,7 @@ alias c="clear"
 
 alias ls="ls -tGr"
 alias sl="ls"
+alias ;s="ls"
 
 alias mkdir="mkdir -p"
 
@@ -111,8 +113,6 @@ alias vim="vim -p"
 alias myip="dig +short myip.opendns.com @resolver1.opendns.com"
 
 alias start="bundle exec jekyll serve"
-
-alias dickbutt="cat /Users/hughferguson/dickbutt.txt"
 
 export PATH="$HOME/.rbenv/bin:$PATH"
 archey --offline
