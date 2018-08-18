@@ -189,6 +189,8 @@ set ai "Auto indent
 set si "Smart indent
 set wrap "Wrap lines
 
+set foldmethod=indent
+set nofoldenable
 
 """"""""""""""""""""""""""""""
 " => Visual mode related
