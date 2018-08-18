@@ -101,7 +101,7 @@ alias sudo="sudo "
 
 alias c="clear"
 
-alias ls="ls -tG"
+alias ls="ls -tGr"
 alias sl="ls"
 
 alias mkdir="mkdir -p"
