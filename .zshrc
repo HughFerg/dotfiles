@@ -96,15 +96,13 @@ source $ZSH/oh-my-zsh.sh
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
-alias .....="cd ../../../.."
 
 alias sudo="sudo "
 
 alias c="clear"
 
-alias ls="ls -tGr"
+alias ls="ls -tG"
 alias sl="ls"
-alias ;s="ls"
 
 alias mkdir="mkdir -p"
 
@@ -116,4 +114,6 @@ alias start="bundle exec jekyll serve"
 
 export PATH="$HOME/.rbenv/bin:$PATH"
 archey --offline
+fortune
+printf "\n"
 cd
