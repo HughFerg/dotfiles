@@ -112,6 +112,11 @@ alias myip="dig +short myip.opendns.com @resolver1.opendns.com"
 
 alias start="bundle exec jekyll serve"
 
+alias space="cd /Users/hughferguson/Sites/operation-space"
+
+alias adall="g add -A"
+alias gcom="g commit -m"
+
 export PATH="$HOME/.rbenv/bin:$PATH"
 archey --offline
 fortune
