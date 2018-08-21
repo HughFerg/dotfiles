@@ -96,6 +96,7 @@ source $ZSH/oh-my-zsh.sh
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
+alias .....="cd ../../../.."
 
 alias sudo="sudo "
 
