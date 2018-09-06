@@ -118,6 +118,8 @@ alias space="cd /Users/hughferguson/Sites/operation-space"
 alias adall="g add -A"
 alias gcom="g commit -m"
 
+alias riri="sudo reboot"
+
 export PATH="$HOME/.rbenv/bin:$PATH"
 archey --offline
 fortune
