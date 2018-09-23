@@ -7,6 +7,8 @@ source ~/.vim_runtime/vimrcs/extended.vim
 
 set clipboard=unnamed
 
+set formatoptions-=tc
+
 try
 source ~/.vim_runtime/my_configs.vim
 catch
