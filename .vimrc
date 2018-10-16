@@ -9,6 +9,11 @@ set clipboard=unnamed
 
 set formatoptions-=tc
 
+function PandocExport(type)
+  exe ":!pandoc % -o %." . a:type
+  exe ":!mimeopen %." . a:type . ""
+endf
+
 try
 source ~/.vim_runtime/my_configs.vim
 catch
