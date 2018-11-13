@@ -17,7 +17,6 @@ endf
 augroup markdown
   au BufFilePre,BufRead,BufNewFile *.[mM][dD] call SetMarkdownKeybinds()
   function SetMarkdownKeybinds()
-    IndentLinesDisable
     set filetype=markdown.pandoc
     autocmd BufRead,BufNewFile *.md setlocal spell
     autocmd BufRead,BufNewFile *.md set complete+=kspell

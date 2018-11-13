@@ -6,6 +6,7 @@ automake
 brightness
 cairo
 cmatrix
+exercism
 fontconfig
 fortune
 freetype
@@ -44,6 +45,7 @@ libyaml
 mongodb
 mutt
 mysql
+ncurses
 nettle
 nmap
 node

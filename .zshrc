@@ -119,6 +119,11 @@ alias adall="g add -A"
 alias gcom="g commit -m"
 
 alias riri="sudo reboot"
+    
+renderTex() {
+    pdflatex $1
+    open $2
+}
 
 export PATH="$HOME/.rbenv/bin:$PATH"
 archey --offline
