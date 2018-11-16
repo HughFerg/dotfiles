@@ -14,6 +14,10 @@ function PandocExport(type)
   exe ":!mimeopen %." . a:type . ""
 endf
 
+execute pathogen#infect()
+
+autocmd vimenter * let &shell='/bin/zsh -i'
+
 augroup markdown
   au BufFilePre,BufRead,BufNewFile *.[mM][dD] call SetMarkdownKeybinds()
   function SetMarkdownKeybinds()
@@ -28,6 +32,15 @@ augroup markdown
 augroup END
 
 set spell spelllang=en_us
+
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
 
 try
 source ~/.vim_runtime/my_configs.vim
