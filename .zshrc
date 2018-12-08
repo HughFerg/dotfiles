@@ -118,6 +118,8 @@ alias space="cd /Users/hughferguson/Sites/operation-space"
 alias adall="g add -A"
 alias gcom="g commit -m"
 
+alias sleepnow="pmset sleepnow"
+
 alias riri="sudo reboot"
     
 renderTex() {
