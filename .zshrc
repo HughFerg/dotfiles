@@ -111,7 +111,7 @@ alias vim="vim -p"
 
 alias myip="dig +short myip.opendns.com @resolver1.opendns.com"
 
-alias start="bundle exec jekyll serve"
+alias start="bundle exec jekyll serve --baseurl """
 
 alias space="cd /Users/hughferguson/Sites/operation-space"
 
@@ -132,3 +132,4 @@ archey --offline
 fortune
 printf "\n"
 cd
+export PATH="/usr/local/sbin:$PATH"
