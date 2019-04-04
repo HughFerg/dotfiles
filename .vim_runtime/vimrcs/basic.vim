@@ -58,7 +58,9 @@ command W w !sudo tee % > /dev/null
 " Set 7 lines to the cursor - when moving vertically using j/k
 set so=7
 
-" Avoid garbled characters in Chinese language windows OS
+" Avoid garbled characters in Chinese language windows OS" Insert new line above without going into insert mode
+" (uses mark o to return to the previous cursor column)
+
 let $LANG='en' 
 set langmenu=en
 source $VIMRUNTIME/delmenu.vim
@@ -200,7 +202,9 @@ set nofoldenable
 vnoremap <silent> * :<C-u>call VisualSelection('', '')<CR>/<C-R>=@/<CR><CR>
 vnoremap <silent> # :<C-u>call VisualSelection('', '')<CR>?<C-R>=@/<CR><CR>
 
-
+ " Insert new line below without leaving normal mode
+ nnoremap o o<Esc>k
+ 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Moving around, tabs, windows and buffers
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
