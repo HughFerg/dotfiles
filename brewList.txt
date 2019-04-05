@@ -32,7 +32,6 @@ gnupg
 gnutls
 gobject-introspection
 googler
-gpg-agent
 graphite2
 graphviz
 gsettings-desktop-schemas
