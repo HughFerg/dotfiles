@@ -7,7 +7,9 @@ automake
 boost
 brightness
 cairo
+cmake
 cmatrix
+eigen
 exercism
 expat
 faac
@@ -26,10 +28,12 @@ gd
 gdbm
 gdk-pixbuf
 gettext
+gflags
 giflib
 git
 glib
 glib-networking
+glog
 gmp
 gnupg
 gnutls
@@ -53,6 +57,7 @@ hicolor-icon-theme
 htop
 hydra
 icu4c
+ilmbase
 imgcat
 isl
 jasper
@@ -114,8 +119,12 @@ ninja
 nmap
 node
 npth
+numpy
 open-mpi
+openblas
 opencore-amr
+opencv@2
+openexr
 openjpeg
 openssl
 opus
@@ -143,6 +152,7 @@ python
 python@2
 rbenv
 readline
+rhino
 rmtrash
 rtmpdump
 rubberband
@@ -156,6 +166,7 @@ speexdsp
 sphinx-doc
 sqlite
 taglib
+tbb
 tesseract
 theora
 tmux
@@ -165,7 +176,9 @@ unbound
 vala
 vim
 webp
+wget
 x264
 x265
 xvid
 xz
+yarn
