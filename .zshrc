@@ -124,7 +124,7 @@ alias gcom="g commit -m"
 alias sleepnow="pmset sleepnow"
 
 alias riri="sudo reboot"
-    
+
 renderTex() {
     pdflatex $1
     open $2
