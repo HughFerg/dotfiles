@@ -136,3 +136,5 @@ fortune
 printf "\n"
 cd
 export PATH="/usr/local/sbin:$PATH"
+
+eval $(thefuck --alias)
