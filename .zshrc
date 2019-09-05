@@ -113,7 +113,7 @@ alias vim="vim -p"
 
 alias myip="dig +short myip.opendns.com @resolver1.opendns.com"
 
-alias start="bundle exec jekyll serve"
+alias start="bundle exec jekyll serve --baseurl \"\""
 alias gdev="gatsby develop"
 
 alias space="cd /Users/hughferguson/Sites/operation-space"
