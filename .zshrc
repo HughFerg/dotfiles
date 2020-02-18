@@ -120,6 +120,7 @@ alias space="cd /Users/hughferguson/Sites/operation-space"
 
 alias adall="g add -A"
 alias gcom="g commit -m"
+alias gstat="g status"
 
 alias sleepnow="pmset sleepnow"
 
