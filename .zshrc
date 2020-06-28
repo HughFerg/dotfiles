@@ -126,6 +126,9 @@ alias sleepnow="pmset sleepnow"
 
 alias riri="sudo reboot"
 
+bindkey "^[[1;9C" forward-word
+bindkey "^[[1;9D" backward-word
+
 renderTex() {
     pdflatex $1
     open $2
