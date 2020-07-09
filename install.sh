@@ -4,6 +4,8 @@ source macosdefaults.sh
 ln -sv “~/.dotfiles/.git” ~
 ln -sv "~/.dotfiles/.vimrc" ~
 ln -sv "~/.dotfiles/.zshrc" ~
+ln -sv "~/.dotfiles/.bashrc" ~
+ln -sv "~/.dotfiles/.bash_profile" ~
 ln -sv "~/.dotfiles/.vim_runtime" ~
 
 # Update App Store apps
